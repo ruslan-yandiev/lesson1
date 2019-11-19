@@ -8,6 +8,6 @@ puts 'Введите высоту треугольника:'
 
 height = gets.chomp.to_f
 
-area = 1.to_f / 2.to_f * base * height
+area = 1.0 / 2 * base * height
 
 puts "Площадь треугольника равна #{area} квадратных метров."
