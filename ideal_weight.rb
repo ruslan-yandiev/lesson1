@@ -6,8 +6,10 @@ puts 'Введите ваш рост:'
 
 man_height = gets.chomp.to_i
 
-if man_height - 110 <= 0
+weight = man_height - 110
+
+if weight <= 0
   puts "#{name}, ваш вес уже оптимальный."
 else
-  puts "#{name}, ваш идеальный вес: #{man_height - 110}"
+  puts "#{name}, ваш идеальный вес: #{weight}"
 end
